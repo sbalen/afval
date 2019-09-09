@@ -7,7 +7,9 @@ Anaconda
 Git
 
 ## Installeren
-
-conda env create -f env.yml
-source activate zwerfafval
-jupyter-notebook
+Open een terminal en voer uit (regel voor regel):
+ * `git clone https://github.com/sbalen/afval.git`
+ * `cd afval`
+ * `conda env create -f env.yml`
+ * `source activate zwerfafval`
+ * `jupyter notebook Zwerfafval\ in\ kaart.ipynb`
